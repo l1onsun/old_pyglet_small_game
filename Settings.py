@@ -1,0 +1,36 @@
+#window settings
+WIN_WIDTH = 800 #1366 #860
+WIN_HEIGHT = 600 #768
+WIN_STYLE = None
+WIN_CAPTION = "Test of ssb 2"
+WIN_FULLSCREEN = 1
+
+#game
+SHIP_SCALE = 0.1
+SLOW = 0.3 #per second
+ROTATION_SLOW = 0 #parameter isn't using yet
+RIFT = 1 #for stop key
+UPDATE = 100
+SHIP_RADIUS = 30
+STANDART_PHYSICS = (1, 20)
+STANDART_ENGINE = (300, 3000)
+
+#physics
+PHYSICS_MODE = 1 # UNABLE(0) SPRING(1) SAND(2)
+PHYSICS_UPDATE = 60
+#settings for mod SPRING
+MATERIAL = 0 # RUBBER(1) METALl(0)
+ELASTICITY = 1000
+COEFFICIENT = 0.6
+ROUGHNESS = 6 # dependence of friction on rotation speed
+MAX_DL = 30
+SHOW_CIRCLES = True
+
+
+#ship1
+SHIP1_PHYSICS = (0.1, 0.1)
+SHIP1_ENGINE = (55, 30)
+
+#ship2
+SHIP2_PHYSICS = (0.1, 2)
+SHIP2_ENGINE = (55, 400)
